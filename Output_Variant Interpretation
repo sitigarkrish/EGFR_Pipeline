@@ -1,0 +1,15 @@
+## Example Variant Interpretation
+
+The variants identified by GATK were annotated using the Ensembl Variant Effect Predictor (VEP) to determine their genomic location, predicted functional consequences, and clinical significance.
+
+One of the notable variants identified in this analysis was **rs121434569** in the **EGFR** gene.
+
+Gene: EGFR
+Genomic Position: 7:55181378-55181378
+Variant Type: Missense variant
+Impact: MODERATE
+Amino Acid Change: T → M (Threonine → Methionine)
+dbSNP ID: rs121434569
+SIFT: deleterious_low_confidence (0)
+PolyPhen: benign (0.28)
+Clinical Significance: drug_response, pathogenic, likely_pathogenic
