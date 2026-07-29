@@ -1,5 +1,5 @@
-# EGFR_Pipeline
-Developed an end-to-end NGS variant calling pipeline for EGFR using Linux, FastQC, fastp, BWA, SAMtools, Picard, GATK, and Ensembl VEP, from raw paired-end sequencing reads to functionally annotated genetic variants.
+# EGFR Pipeline
+An end-to-end NGS variant calling pipeline for identifying and functionally annotating EGFR variants from paired-end Illumina sequencing data using Linux, FastQC, fastp, BWA, SAMtools, Picard, GATK, and Ensembl VEP.
 
 ## Data Collection
 
