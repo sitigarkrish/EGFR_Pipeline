@@ -1,4 +1,4 @@
-#Writing, modifying, or fixing shell scripts directly from the terminal.
+# Writing, modifying, or fixing shell scripts directly from the terminal.
 nano pipeline.sh
 
 # list directory contents
@@ -37,7 +37,7 @@ samtools rmdup -sS SRR27182345.sam rmdup_SRR27182345.sam
 # Creates a sequence dictionary for a reference sequence.
 picard-tools CreateSequenceDictionary R=chr7.fa O=chr7.dict
 
-# Assigns all the reads in a file ta single new read-group.
+# Assigns all the reads in a file to a single new read group.
 picard-tools AddOrReplaceReadGroups I=rmdup_SRR27182345.sam O=picard_SRR27182345.bam RGLB=lib1 RGPL=illumina RGPU=run RGSM=SRR27182345 SORT_ORDER=coordinate CREATE_INDEX=true VALIDATION_STRINGENCY=LENIENT
 
 #Enabling SAMtools and GATK to quickly access specific regions of the reference genome without scanning the entire FASTA file.
